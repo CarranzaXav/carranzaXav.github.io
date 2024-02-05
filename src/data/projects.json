@@ -1,0 +1,26 @@
+[
+    {
+        "title": "YelpCamp",
+        "imageSrc": "projects/yelp-camp-product-photo.png",
+        "description": "This is full-stack project, implementing user login and registeration, allowing users to add, review, upload images, and delete campgrounds. ",
+        "skills": [
+            "Javascript",
+            "Node",
+            "Express", "Mongo"
+        ],
+        "demo": "https://yelp-camp-mbk7.onrender.com",
+        "source": "https://github.com/CarranzaXav/yelp-camp"
+    },
+    {
+        "title": "Project B",
+        "imageSrc": "projects/project.png",
+        "description": "Google maps",
+        "skills": [
+            "html",
+            "css",
+            "Javascript"
+        ],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    }
+]

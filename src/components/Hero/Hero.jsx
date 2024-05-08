@@ -1,7 +1,7 @@
 import "../../vars.css";
 import {useState, useEffect} from 'react';
 import {motion} from 'framer-motion';
-import styles from "./hero.module.css"
+import "./Hero.module.css"
 import { getImageUrl } from '../../utils';
 
 

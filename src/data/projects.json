@@ -5,22 +5,24 @@
         "description": "This is full-stack project, implementing user login and registeration, allowing users to add, review, upload images, and delete campgrounds. ",
         "skills": [
             "Javascript",
-            "Node",
-            "Express", "Mongo"
+            "Express",
+            "Node", 
+            "Mongo"
         ],
         "demo": "https://yelp-camp-mbk7.onrender.com",
         "source": "https://github.com/CarranzaXav/yelp-camp"
     },
     {
-        "title": "Project B",
-        "imageSrc": "projects/project.png",
-        "description": "Google maps",
+        "title": "Netflix-Clone",
+        "imageSrc": "projects/netflix-product-photo.png",
+        "description": "A Netflix-Clone utilizing React, JavaScript, Express, Mongo",
         "skills": [
-            "html",
-            "css",
-            "Javascript"
+            "React",
+            "Javascript",
+            "Express",
+            "Mongo"
         ],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "demo": "https://netflix-clone-c0l0.onrender.com",
+        "source": "https://github.com/CarranzaXav/netflix-clone.git"
     }
 ]

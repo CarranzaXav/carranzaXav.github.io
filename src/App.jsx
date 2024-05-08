@@ -1,7 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import styles from './App.module.css';
 import { Hero } from "./components/Hero/Hero";
-import { Navbar } from './components/Navbar/Navbar';
+import NavbarContainer from './components/Navbar/NavbarContainer';
 import { About } from './components/About/About';
 import { Projects } from './components/Projects/Projects';
 import { Contact } from './components/Contact/Contact';
@@ -9,7 +10,7 @@ import { Contact } from './components/Contact/Contact';
 function App() {
   return (
     <div className={styles.App}>
-      <Navbar />
+      <NavbarContainer />
       <Hero />
       <About />
       <Projects />

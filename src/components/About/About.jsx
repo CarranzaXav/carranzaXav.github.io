@@ -6,46 +6,23 @@ import { getImageUrl } from '../../utils';
 
 export const About = () => {
     return <section className={styles.container} id="about">
-        <h2 className={styles.title}>About</h2>
-        <div className={styles.content}>
-            <img
-                src={getImageUrl("about/aboutImage.png")}
-                alt="me sitting with a laptop"
-                className={styles.aboutImage}
-            />
-            <ul className={styles.aboutItems}>
-                <li className={styles.aboutItem}>
+        <h2 className={styles.title}>About</h2>                                                                                                                                                                                                                                                 
+        <div className={styles.content} id="position">
                     <img
                         src={getImageUrl("about/cursorIcon.png")}
+                        className={styles.aboutCursorIcon}
                         alt="Cursor icon"
+                        id="a"
                     />
-                    <div className={styles.aboutItemText}>
-                        <h3>Frontend Developer</h3>
-                        <p>I'm a frontend developer with experience building responsive and optimized sites.</p>
+                    <div className={styles.aboutItem} id="b">
+                        <p>
+Dedicated to the principle of continual learning, I navigate the realm of full stack development with fervor, particularly drawn to JavaScript, React, and the vibrant domain of web development. It's the fusion of creativity, problem-solving, and the ever-evolving tech landscape that fuels my excitement and keeps me hooked on the journey. </p>
                     </div>
-                </li>
-                <li className={styles.aboutItem}>
-                    <img
-                        src={getImageUrl("about/serverIcon.png")}
-                        alt="Server icon"
-
-                    />
-                    <div className={styles.aboutItemText}>
-                        <h3>Backend Developer</h3>
-                        <p>I have experience devloping fast and optimised back-end systems and APIs</p>
-                    </div>
-                </li>
-                <li className={styles.aboutItem}>
-                    <img
-                        src={getImageUrl("about/uiIcon.png")}
-                        alt="UI icon"
-                    />
-                    <div className={styles.aboutItemText}>
-                        <h3>UI Designer</h3>
-                        <p>I have designed multiple landing pages and have created design systems as well</p>
-                    </div>
-                </li>
-            </ul>
+                 <img
+                src={getImageUrl("about/aboutImage.jpg")}
+                alt="me sitting with a laptop"
+                id="c"
+                className={styles.aboutImage}/>
         </div>
     </section>;
 };

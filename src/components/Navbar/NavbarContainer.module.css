@@ -1,0 +1,15 @@
+@import "../../vars.css";
+
+.fixed-top {
+  left:auto;
+}
+
+.navBlock {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  z-index: 2;
+  background: transparent;
+  font-size: 22px;
+}
+

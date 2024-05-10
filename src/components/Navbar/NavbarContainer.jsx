@@ -6,44 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import { getImageUrl } from "../../utils";
-
 import styles from "./NavbarContainer.module.css";
-
-
-// export const Navbar = () => {
-//     // Allows our Navbar to Open
-//     const [menuOpen, setMenuOpen] = useState(false);
-//     return <nav className={styles.navbar}>
-//         <a className={styles.title} href="/">Portfolio</a>
-//         <div className={styles.menu}>
-//             <img
-//                 className={styles.menuBtn}
-//                 // Allows our Navbar to Open
-
-//                 src={menuOpen
-//                     ? getImageUrl("nav/closeIcon.png")
-//                     : getImageUrl("nav/menuIcon.png")}
-//                 alt="menu-button"
-//                 onClick={() => setMenuOpen(!menuOpen)}
-//             />
-//             <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
-//                 <li>
-//                     <a href="#about">About</a>
-//                 </li>
-//                 {/* <li>
-//                     <a href="#experience">Experience</a>
-//                 </li> */}
-//                 <li>
-//                     <a href="#projects">Projects</a>
-//                 </li>
-//                 <li>
-//                     <a href="#contact">Contact</a>
-//                 </li>
-//             </ul>
-//         </div>
-//     </nav>;
-// }
 
 function NavbarContainer() {
   return (

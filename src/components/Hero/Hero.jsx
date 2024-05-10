@@ -49,7 +49,7 @@ export const Hero = () => {
 
 
  return (
-        <section className={styles.container}  onMouseMove={textEnter} onMouseLeave={textLeave}>
+        <section id="home" className={styles.container}  onMouseMove={textEnter} onMouseLeave={textLeave}>
         
             <div className={styles.content} >
                 <motion.div

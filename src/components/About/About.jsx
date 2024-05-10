@@ -13,6 +13,7 @@ export const About = () => {
                         className={styles.aboutCursorIcon}
                         alt="Cursor icon"
                         id="a"
+                        loading="eager"
                     />
                     <div className={styles.aboutItem} id="b">
                         <p>

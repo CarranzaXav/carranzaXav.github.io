@@ -58,11 +58,12 @@ export const Hero = () => {
         animate={cursorVariant}
      />
                 <h1 className={styles.title}> Hi, I'm Xavier</h1>
-                <p className={styles.description}>I'm a full-stack developer with experience in CSS, JaveScript, React, Express and Node.<br/> Reach out if you'd like to learn more!!</p>
                 <a href="mailto:carranzax7@gmail.com" className={styles.contactBtn}>Contact Me</a>
+                <p className={styles.description}>I'm a full-stack developer with experience in <br/>CSS, JaveScript, React, Express and Node.<br/> Reach out if you'd like to learn more!!</p>
+                
                 
             </div>
-            <img src={getImageUrl("hero/heroImage.jpg")} alt="Hero image of me" className={styles.heroImg} />
+            <img src={getImageUrl("hero/heroImage.jpg")} alt="Hero image of me" className={styles.heroImg} loading="eager" />
             {/* <div className={styles.heroImg}></div> */}
             <div className={styles.topBlur} />
             <div className={styles.bottomBlur} />

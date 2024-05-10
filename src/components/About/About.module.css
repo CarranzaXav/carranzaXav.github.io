@@ -123,7 +123,7 @@
   }
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1080px) {
   .container {
     background-color: transparent;
     padding-left: 0;

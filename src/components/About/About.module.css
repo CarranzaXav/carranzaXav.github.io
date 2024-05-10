@@ -119,15 +119,17 @@
     width: 50%;
   }
   .aboutItem p {
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1079px) {
   .container {
     background-color: transparent;
     padding-left: 0;
     padding-right: 0;
+    padding-top: 40px;
+    margin-bottom: 20px;
   }
 
   .content {
@@ -147,6 +149,6 @@
     padding-right: 0;
   }
   .aboutItem p {
-    font-size: 25px;
+    font-size: 1.3rem;
   }
 }

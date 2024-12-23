@@ -1,12 +1,25 @@
 [
     {
+        "title": "Task Manager X",
+        "imageSrc": "projects/TaskManagerX.png",
+        "description": "TaskManagerX is a MERN stack task management system allowing users to organize, categorize, and filter tasks efficiently. It features user authentication, role-based access, and showcases seamless integration between the frontend and backend.",
+        "skills": [
+            "React",
+            "Javascript",
+            "Express",
+            "Mongo"
+        ],
+        "demo": "https://taskmanagerx.onrender.com",
+        "source": "https://github.com/CarranzaXav/taskManager"
+    },
+    {
         "title": "YelpCamp",
         "imageSrc": "projects/yelp-camp-product-photo.png",
         "description": "This is full-stack project, implementing user login and registeration, allowing users to add, review, upload images, and delete campgrounds. ",
         "skills": [
             "Javascript",
             "Express",
-            "Node", 
+            "Node",
             "Mongo"
         ],
         "demo": "https://yelp-camp-mbk7.onrender.com",

@@ -28,16 +28,10 @@
 }
 
 .aboutImage {
-  /* width: 35%;
-  border-radius: 35px; */
-
-  /* width: 50%; */
   width: 35%;
   object-fit: cover;
   object-position: 100% 15%;
   z-index: 1;
-  /* height: 60px; */
-  /* background-color: red; */
   border-radius: 40px;
   margin-left: 25px;
 

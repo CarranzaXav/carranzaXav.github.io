@@ -14,7 +14,7 @@ export const About = () => {
                 className={styles.aboutCursorIcon}
                 alt="Cursor icon"
                 id="a"
-                loading="eager"
+                loading="lazy"
             />
             <div className={styles.aboutItem} id="b">
                 <p>
@@ -24,6 +24,7 @@ export const About = () => {
                 src={getImageUrl("about/aboutImage.jpg")}
                 alt="me sitting with a laptop"
                 id="c"
+                loading="lazy"
                 className={styles.aboutImage} />
         </div>
     </section>;

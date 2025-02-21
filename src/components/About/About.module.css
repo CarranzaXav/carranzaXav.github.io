@@ -93,7 +93,8 @@
   font-size: 2rem;
 }
 
-@media screen and (max-width: 1080px) and (min-width: 821px) {
+
+@media screen and (max-width: 1224px){
   .content {
     display: flex;
     flex-direction: column;
@@ -117,7 +118,7 @@
   }
 }
 
-@media screen and (max-width: 1079px) {
+@media screen and (min-width:780px ) and (max-width:1200px){
   .container {
     background-color: transparent;
     padding-left: 0;
@@ -144,5 +145,23 @@
   }
   .aboutItem p {
     font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width:391px) and (max-width:480px){
+  .aboutImage{
+    display: none;
+  }
+}
+
+@media screen and (min-width:361px ) and (max-width:390px){
+  .aboutImage{
+    display: none;
+  }
+}
+
+@media screen and (min-width:320px ) and (max-width:360px){
+  .aboutImage{
+    display:none;
   }
 }

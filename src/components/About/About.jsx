@@ -18,11 +18,11 @@ export const About = () => {
             />
             <div className={styles.aboutItem} id="b">
                 <p>
-                    Dedicated to the principle of continual learning, I navigate the realm of full stack development with fervor, particularly drawn to JavaScript, React, and the vibrant domain of web development. It's the fusion of creativity, problem-solving, and the ever-evolving tech landscape that fuels my excitement and keeps me hooked on the journey. </p>
+                    Dedicated to the principle of continual learning, I thrive as a full-stack developer passionate about building dynamic, user-friendly web applications. With expertise in JavaScript, React, Node.js, Express, and MongoDB, I embrace challenges that push me to grow and refine my craft. I’m driven by the intersection of technology, creativity, and problem-solving, constantly exploring new ways to optimize performance and enhance user experiences. My journey is fueled by curiosity, innovation, and the excitement of turning ideas into reality. </p>
             </div>
             <img
                 src={getImageUrl("about/aboutImage.jpg")}
-                alt="me sitting with a laptop"
+                alt="Causal photo of me"
                 id="c"
                 loading="lazy"
                 className={styles.aboutImage} />

@@ -1,0 +1,13 @@
+ @import "../vars.css";
+
+ .backToTopBtn {
+     position: fixed;
+     font-size: max(4vw, 30px);
+     bottom: 20px;
+     right: 20px;
+     color: var(--color-text-o);
+     border: none;
+     border-radius: 5px;
+     padding: 10px 20px;
+     cursor: pointer;
+ }

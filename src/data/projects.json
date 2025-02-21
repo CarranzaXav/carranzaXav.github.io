@@ -15,7 +15,7 @@
     {
         "title": "YelpCamp",
         "imageSrc": "projects/yelp-camp-product-photo.png",
-        "description": "This is full-stack project, implementing user login and registeration, allowing users to add, review, upload images, and delete campgrounds. ",
+        "description": "This is full-stack project, implementing user login and registration, allowing users to add, review, upload images, and delete campgrounds. ",
         "skills": [
             "Javascript",
             "Express",

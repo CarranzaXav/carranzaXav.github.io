@@ -1,5 +1,8 @@
 import React from 'react';
 import styles from './Contact.module.css';
+import { FontAwesomeIcon, } from "@fortawesome/react-fontawesome"
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 import { getImageUrl } from '../../utils';
 
@@ -12,22 +15,26 @@ export const Contact = () => {
             </div>
             <ul className={styles.links}>
                 <li className={styles.link}>
-                    <a href="mailto:carranzax7@gmail.com"> 
-                    <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" /> 
-                     <div>carranzax7@gmail.com</div>
-                     </a>
-                    </li>
-                <li className={styles.link}>
-            
+
                     <a href="https://github.com/CarranzaXav">
-                        <img src={getImageUrl('contact/githubIcon.png')} alt="Github Icon" /> 
+                        <FontAwesomeIcon className={styles.contactIcon} icon={faGithub} />
                         <div>https://github.com/CarranzaXav</div>
-                        </a>
-                     </li>
+                    </a>
+                </li>
                 <li className={styles.link}>
-                    
+                    <a href="mailto:carranzax7@gmail.com">
+                        {/* <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" /> */}
+                        <FontAwesomeIcon className={styles.contactIcon} icon={faEnvelope} />
+                        <div>carranzax7@gmail.com</div>
+                    </a>
+                </li>
+                <li className={styles.link}>
                     <a href="https://www.linkedin.com/in/xavier-carranza-458690218">
-                    <img src={getImageUrl('contact/linkedinIcon.png')} alt="LinkedIn icon" /> <div>LinkedIn</div></a></li>
+                        <FontAwesomeIcon className={styles.contactIcon} icon={faLinkedin} />
+                        <div>Connect with me on LinkedIn</div>
+                    </a>
+                </li>
+
             </ul>
         </footer >
     )

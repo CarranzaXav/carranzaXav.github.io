@@ -35,8 +35,8 @@ export const Hero = () => {
       y: mousePosition.y,
     },
     text: {
-      height: 300,
-      width: 300,
+      height: 200,
+      width: 200,
       x: mousePosition.x,
       y: mousePosition.y,
       backgroundColor: "var(--color-bg-light)",
@@ -51,21 +51,40 @@ export const Hero = () => {
   return (
     <section id="home" className={styles.container} onMouseMove={textEnter} onMouseLeave={textLeave}>
 
+
       <div className={styles.content} >
+
         <motion.div
           className={styles.cursor}
           variants={variants}
           animate={cursorVariant}
         />
-        <h1 className={styles.title}> Hi, I'm Xavier</h1>
-        <a href="mailto:carranzax7@gmail.com" className={styles.contactBtn}>Contact Me</a>
-        <p className={styles.description}>I'm a full-stack developer with experience in <br />CSS, JaveScript, React, Express and Node.<br /> Reach out if you'd like to learn more!!</p>
 
+        <div className={styles.heroImgBlock}>
+          <img src={getImageUrl("hero/heroImage.jpg")} alt="Causal photo of me" className={styles.heroImg} loading="lazy" />
+        </div>
 
+        <div className={styles.heroBio}>
+
+          <h1 className={styles.title}> Hi, I'm Xavier </h1>
+
+          <a href="mailto:carranzax7@gmail.com" className={styles.contactBtn}>
+            <div>
+              Contact Me
+            </div>
+          </a>
+
+          <p className={styles.description}>
+            Crafting seamless digital experiences, one line of code at a time.
+            <br />
+            As a full-stack developer, I'm passionate about building responsive and dynamic web applications that bring ideas to life.
+            <br />Let’s connect and build something great!</p>
+        </div>
       </div>
-      <img src={getImageUrl("hero/heroImage.jpg")} alt="Hero image of me" className={styles.heroImg} loading="lazy" />
+
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
+
     </section>
   )
 }

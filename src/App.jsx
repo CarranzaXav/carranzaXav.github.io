@@ -6,6 +6,7 @@ import NavbarContainer from './components/Navbar/NavbarContainer';
 import { About } from './components/About/About';
 import { Projects } from './components/Projects/Projects';
 import { Contact } from './components/Contact/Contact';
+import BackToTop from './BackToTopBtn/BackToTop'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <BackToTop />
     </div>
   )
 }

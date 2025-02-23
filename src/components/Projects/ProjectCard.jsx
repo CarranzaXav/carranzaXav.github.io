@@ -21,29 +21,31 @@ export const ProjectCard = ({ project: { title, imageSrc, description, skills, d
                 <img src={getImageUrl(imageSrc)} alt={`Image of ${title}`} className={styles.frontImage} />
 
                 <div className={styles.frontContent}>
-                    <div className={styles.projectBtns}>
-                        <small>
-                            <a href={demo} className={styles.badge}>Demo</a>
-                        </small>
-
-                        <small>
-                            <a href={source} className={styles.badge}>Source</a>
-                        </small>
-                    </div>
 
                     <div className={styles.description}>
                         <p>
                             {description}
                         </p>
 
-                        <ul className={styles.skills}>
-                            {skills.map((skill, id) => {
-                                return (<li key={id} className={styles.skill}>{skill}</li>);
-                            })}
-                        </ul>
+
+                        {/* Skill list was here */}
                     </div>
                 </div>
+                <ul className={styles.skills}>
+                    {skills.map((skill, id) => {
+                        return (<li key={id} className={styles.skill}>{skill}</li>);
+                    })}
+                </ul>
             </div>
+        </div>
+        <div className={styles.projectBtns}>
+            <small>
+                <a href={demo} className={styles.badge}>Demo</a>
+            </small>
+
+            <small>
+                <a href={source} className={styles.badge}>Source</a>
+            </small>
         </div>
     </div>
 );

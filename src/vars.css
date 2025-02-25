@@ -9,6 +9,4 @@
   --color-bg-dark: color-mix(in srgb, var(--color-bg), #000 10%);
   --color-bg-darker: color-mix(in srgb, var(--color-bg), #262626);
   --color-bg-light: color-mix(in srgb, var(--color-bg), #d9d9d9);
-  /* fonts */
-  --font-robot: "Roboto";
 }

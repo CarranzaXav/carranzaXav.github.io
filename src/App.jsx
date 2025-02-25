@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Suspense } from 'react';
 import styles from './App.module.css';
 import { Hero } from "./components/Hero/Hero";
 import NavbarContainer from './components/Navbar/NavbarContainer';
@@ -15,16 +14,14 @@ function Loading() {
 
 function App() {
   return (
-    <Suspense fallback={<Loading />}>
-      <div className={styles.App}>
-        <NavbarContainer />
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-        <BackToTop />
-      </div>
-    </Suspense>
+    <div className={styles.App}>
+      <NavbarContainer />
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <BackToTop />
+    </div>
   )
 }
 

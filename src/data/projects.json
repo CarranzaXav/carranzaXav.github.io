@@ -2,12 +2,14 @@
     {
         "title": "Task Manager X",
         "imageSrc": "projects/TaskManagerX.png",
-        "description": "TaskManagerX is a MERN stack task management system allowing users to organize, categorize, and filter tasks efficiently. It features user authentication, role-based access, and showcases seamless integration between the frontend and backend.",
+        "description": "TaskManangerX is a full-stack task management system built using the MERN stack that enables users to effciently create, categorize, and manage tasks. The application features user authentication and role-based access control, ensuring secure task management based on user permissions. With a seamless frontend-backend integration, TaskManagerX provides a smooth user experience, allowing users to filter and organize task effortlessly. The system is designed with a responsive UI, making it accessible across different devices. Additionally, it incorporates RESTful API architecture and state management techniques to enhance performance and maintainability.",
         "skills": [
             "React",
             "Javascript",
             "Express",
-            "Mongo"
+            "MongoDB",
+            "NodeJS",
+            "CSS"
         ],
         "demo": "https://taskmanagerx.onrender.com",
         "source": "https://github.com/CarranzaXav/taskManager"
@@ -15,12 +17,14 @@
     {
         "title": "YelpCamp",
         "imageSrc": "projects/yelp-camp-product-photo.png",
-        "description": "This is full-stack project, implementing user login and registration, allowing users to add, review, upload images, and delete campgrounds. ",
+        "description": "YelpCamp is a full-stack web application that enables users to discover, create, and review campgrounds, fostering a community-driven platform for camping enthusiasts. Users can register accounts, upload campground details with photos, and share their experiences through reviews. The application incorporates interactive maps to visualize campground locations, enhancing user engagement and exploration. Robust authentication and authorization mechanism ensure secure user interactions, allowing usrs to manage their contributions while maintaining data integrity.",
         "skills": [
-            "Javascript",
+            "NodeJS",
             "Express",
-            "Node",
-            "Mongo"
+            "MongoDB",
+            "PassportJS",
+            "Bootstrap",
+            "MapboxAPI"
         ],
         "demo": "https://yelp-camp-mbk7.onrender.com",
         "source": "https://github.com/CarranzaXav/yelp-camp"
@@ -28,12 +32,14 @@
     {
         "title": "Netflix-Clone",
         "imageSrc": "projects/netflix-product-photo.png",
-        "description": "A Netflix-Clone utilizing React, JavaScript, Express, Mongo",
+        "description": "Netflix-Clone is a full-stack web applicatioon that replicates Netflix's core features, allowing users to browse, search, and stream movie and TV show YouTube Trailers. Built with React, it delivers a responsive and dynamic UI for seamless navigation. The backend, powered by Node.js and Express.js, manages user authentication and content retrieval, while MongoDB stores user and media data effciently. The app also integrates with external APIs using Axios to fetch real-time content, ensuring an up-to-date media library.",
         "skills": [
             "React",
             "Javascript",
             "Express",
-            "Mongo"
+            "MongoDB",
+            "Node.js",
+            "Axios"
         ],
         "demo": "https://netflix-clone-c0l0.onrender.com",
         "source": "https://github.com/CarranzaXav/netflix-clone.git"

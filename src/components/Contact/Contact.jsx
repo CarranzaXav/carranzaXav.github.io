@@ -4,8 +4,6 @@ import { FontAwesomeIcon, } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
-import { getImageUrl } from '../../utils';
-
 export const Contact = () => {
     return (
         <footer id='contact' className={styles.container}>
@@ -23,7 +21,6 @@ export const Contact = () => {
                 </li>
                 <li className={styles.link}>
                     <a href="mailto:carranzax7@gmail.com">
-                        {/* <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" /> */}
                         <FontAwesomeIcon className={styles.contactIcon} icon={faEnvelope} />
                         <div>carranzax7@gmail.com</div>
                     </a>

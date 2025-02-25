@@ -33,7 +33,6 @@
   object-position: 100% 15%;
   z-index: 1;
   border-radius: 60%;
-  /* margin-right: 75px; */
   margin-inline: auto;
   animation-name: floating;
   animation-duration: 3s;
@@ -130,7 +129,6 @@
 
 @media only screen and (min-width: 780px) {
   .container {
-    /* background-color: transparent; */
     padding-left: 0;
     padding-right: 0;
     padding-top: 40px;
@@ -190,10 +188,6 @@
 
   .aboutItem p {
     max-width: 750px;
-    font-size: 2.2rem;
-  }
-
-  .aboutItem {
-    /* margin-inline: 10%; */
+    font-size: 1.5rem;
   }
 }

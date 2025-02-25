@@ -27,15 +27,12 @@ function BackToTop() {
     }, [])
 
     return (
-        <button
+
+        <FontAwesomeIcon
             onClick={scrollToTop}
             style={{
                 display: isVisible ? 'block' : 'none'
-            }}
-        >
-
-            <FontAwesomeIcon icon={faSquareCaretUp} className={styles.backToTopBtn} />
-        </button>
+            }} icon={faSquareCaretUp} className={styles.backToTopBtn} />
     )
 }
 

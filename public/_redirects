@@ -1,5 +1,5 @@
-/api/*           https://recipekeeperapi.onrender.com/:splat          200
-/recipe-keeper/      https://recipe-keeper-ui.netlify.app/      200
-/recipe-keeper/*    https://recipe-keeper-ui.netlify.app/:splat     200
+/api/*           https://recipekeeperapi.onrender.com/:splat          200!
+/recipe-keeper   https://recipe-keeper-ui.netlify.app/               200!
+/recipe-keeper/* https://recipe-keeper-ui.netlify.app/:splat         200!
 
-/*      /index.html     200
+/*              /index.html                                          200

@@ -43,5 +43,19 @@
         ],
         "demo": "https://netflix-clone-c0l0.onrender.com",
         "source": "https://github.com/CarranzaXav/netflix-clone.git"
+    },
+    {
+        "title": "Recipe Keeper",
+        "imageSrc": "projects/RecipeKeeper.png",
+        "description": "Recipe Keeper is a full-stack MERN application that brings all your recipes into one organized platform. Users can create secure accounts, build profiles, to save, organize, and manage recipes in one place. The app supports user-generated recipe uploads, structured data parsing, and persistent storage through a RESTful API. Built with a React frontend styled using TailwindCSS and a Node/Express backend backed by MongoDB, Recipe Keeper emphasizes clean UI, efficient data handling, and scalable architecture. The project showcases end-to-end development skills, including authentication, API design, and frontend–backend integration, while solving a practical problem for everyday use.",
+        "skills": [
+            "React",
+            "Node.js",
+            "Express",
+            "REST APIs",
+            "TailwindCSS"
+        ],
+        "demo": "https://recipe-keeper-ui.netlify.app/",
+        "source": "https://github.com/CarranzaXav/RecipeKeeper.git"
     }
 ]

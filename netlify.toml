@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/recipe-keeper"
-  to = "https://69447971b036e100083f969d--recipe-keeper-ui.netlify.app/"
+  to = "https://recipe-keeper-ui.netlify.app/"
   status = 301
 
 [[redirects]]

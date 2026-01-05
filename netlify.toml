@@ -1,9 +1,7 @@
-
 [[redirects]]
   from = "/recipe-keeper"
   to = "/recipe-keeper/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/recipe-keeper/*"
